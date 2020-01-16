@@ -1,0 +1,60 @@
+Instructions for running the random number tests in this
+repository.
+
+Kolgomorov-Smirnov Test.
+
+Run javaks.sh to apply the Kolmogorov-Smirnov test for the
+eegl48 uniform random number generator.  There is no
+parameter.
+
+./javaks.sh
+
+This test is expected to pass.
+
+--------
+
+eegl48 Binomial Distribution Test
+
+Run binom.sh to perform a binomial test on the eegl48 random
+number generator.
+
+./binom.sh
+
+This test is expected to pass.
+
+--------
+
+eegl48 Timing Test
+
+Run timing.sh to perform a timing test on the eegl48 random
+number generator.  The eegl48 generator is compared to the Java
+Math.random() generator.
+
+./timing.sh
+
+This eegl48 is expected to perform as fast as Math.random().
+
+--------
+
+Dieharder suite of random number tests.
+
+Run dietst.sh to apply dieharder tests to the eegl48
+random number generator.
+
+./dietst.sh
+
+This test is expected to pass with normal random weaknesses,
+but with no failed tests.  When rerun, weaknesses do not repeat
+on the same test.
+
+--------
+
+More random number tests.
+
+You are welcome to contribute more Java random number tests
+for this generator.
+
+For more information about this repository, read README.md
+and INSTALL.
+
+--------
