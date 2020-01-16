@@ -24,7 +24,7 @@ CC=gcc
 
 CFLAGS=-c -Wall -O2
 
-LDFLAGS=-L. -leegl -L. -lks -lgsl -lgslcblas -lm
+LDFLAGS=-L. -lks -lgsl -lgslcblas -lm
 
 kstest:				$(OBJ)
 		$(CC) -Wall -O2 $(OBJ) -o kstest $(LDFLAGS)
