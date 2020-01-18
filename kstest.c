@@ -35,15 +35,15 @@ double geteegl(xxfmt *xx)
 	 } /* if end of file */
       if (ferror(stdin))
          {
-         perror("getdie: read error\n");
+         perror("geteegl: read error\n");
          exit(1);
          } /* read error */
-      fprintf(stderr,"getdie: blank line\n");
+      fprintf(stderr,"geteegl: blank line\n");
       exit(1);
       } /* if eof or read error */
    if (len > 1)
       {
-      fprintf(stderr,"getdie: read error\n");
+      fprintf(stderr,"geteegl: read error\n");
       fprintf(stderr,"scanf read more than "
          "one token %d\n", len);
       exit(1);

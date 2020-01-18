@@ -1,11 +1,10 @@
 /***************************************************************************
- *  Compilation:  javac Binom.java
- *  Execution:    java Binom
+ *  Compilation:  javac DieGen.java
+ *  Execution:    java DieGen
  *
- *  eegl48 generator, generates input to a binomial distribution
- *  test.
+ *  eegl48 generator, generates input to the dieharder tests.
  *
- *  % java Binom
+ *  % java DieGen
  *
  **************************************************************************/
 /* DieGen.java  - eegl48 random number generator for DieharderTest   */
